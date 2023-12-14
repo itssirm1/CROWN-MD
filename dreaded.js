@@ -102,7 +102,7 @@ const admin = process.env.ADMIN_MSG || '𝐅𝐚𝐢𝐥𝐮𝐫𝐞!, 𝐘𝐨�
     const group = process.env.GROUP_ONLY_MSG || 'Is this a group chat?';
     const botAdmin = process.env.BOT_ADMIN_MSG || '𝐅**𝐤 𝐲𝐨𝐮 🦄𝐚𝐦 𝐚𝐧 𝐧𝐨𝐭 𝐚𝐧 𝐚𝐝𝐦𝐢𝐧'
     const NotOwner = process.env.NOT_OWNER_MSG || 'Lol you are not 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏';
-const wapresence = process.env.WA_PRESENCE || 'typing';
+const wapresence = process.env.WA_PRESENCE || 'recording';
 const antilink = process.env.ANTILINK || 'TRUE';
 const antilinkall = process.env.ANTILINK_ALL || 'FALSE';
 
@@ -130,7 +130,7 @@ if (wapresence === 'recording' && !m.isGroup) {
   client.sendPresenceUpdate('recording', m.chat);
 } else if (wapresence === 'typing' && !m.isGroup) { 
             
-  client.sendPresenceUpdate('composing', m.chat);
+  client.sendPresenceUpdate('recording', m.chat);
     }
     
 
@@ -1460,7 +1460,7 @@ break
   case 'play':
     case 'stream': {
         if (!text) {
-            reply('Provide a search term!\nE.g: play Alan walker alone')
+            reply('𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐚 𝐬𝐞𝐚𝐫𝐜𝐡 𝐭𝐞𝐫𝐦!\n𝐄.𝐠: 𝐩𝐥𝐚𝐲 𝐮𝐦𝐛𝐫𝐞𝐥𝐥𝐚 𝐍𝐚𝐬𝐛𝐨𝐢')
             return;
         }
         try {
