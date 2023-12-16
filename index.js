@@ -1,7 +1,7 @@
 const sessionName = "dreaded1";
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
 const autobio = process.env.AUTOBIO || 'TRUE';
-let botname = process.env.BOTNAME || '𝐂𝐑𝐎𝐖𝐍-𝐀𝐈';
+let botname = process.env.BOTNAME || 'U𝐍RULY-𝐀𝐈';
 
 const owner = process.env.DEV || '923195832822'; // This will send a notification once the bot reconnects
 const {
@@ -734,7 +734,7 @@ function _0x4dc1() {
       console.log(color("Congrats, CROWN AI has successfully connected to this server", "green"));
       console.log(color("Follow me on Twitter as @NSirm5", "red"));
       console.log(color("Text the bot number with !menu to check my command list"));
-      client.sendMessage(owner + "@s.whatsapp.net", { text: `〘𝐂𝐑𝐎𝐖𝐍 𝐡𝐚𝐬 𝐬𝐭𝐚𝐫𝐭𝐞𝐝. . .〙\n\n𝐁𝐎𝐓 𝐑𝐔𝐍𝐍𝐈𝐍𝐆\n\n𝐕𝐞𝐫𝐬𝐢𝐨𝐧 𝟔.𝟎.𝟖\n\nincase of any issue contact
+      client.sendMessage(owner + "@s.whatsapp.net", { text: `〘UNRULY 𝐡𝐚𝐬 𝐬𝐭𝐚𝐫𝐭𝐞𝐝. . .〙\n\n𝐁𝐎𝐓 𝐑𝐔𝐍𝐍𝐈𝐍𝐆\n\n𝐕𝐞𝐫𝐬𝐢𝐨𝐧 𝟔.𝟎.𝟖\n\nincase of any issue contact
  https://wa.me/923195832822` });
     }
     // console.log('Connected...', update)
