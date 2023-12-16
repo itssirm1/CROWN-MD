@@ -4,13 +4,13 @@
   </p>
   
 <p align="center">
-<img src="https://i.imgur.com/oE6btwC.jpeg" width="300" height="300"/>
+<img src="https://i.imgur.com/i8aJgxp.jpeg" width="300" height="300"/>
 </p>
 <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=CROWN-BOT+WHATSAPP+BOT" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=UNRULY-BOT+WHATSAPP+BOT" alt="">
 </p>
 <p align="center">
-<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏-blue.svg?style=for-the-badge&logo=github"></a>
+<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-UNRULY-blue.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="'https://wa.me/254798214068ʜᴇʟʟᴏ+𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏 +uko+na+update+yoyote+ya+UNRULY+Bot+Mkuu+🥲'"><img title="Whatsapp" src="'https://wa.me/254798214068ʜᴇʟʟᴏ+𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏 +uko+na+update+ya+UNRULY+Bot+Mkuu+🥲'?color=green&style=flat-square"></a>
