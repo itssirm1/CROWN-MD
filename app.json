@@ -1,6 +1,6 @@
 {
-  "name": "CROWN-MD",
-  "description": "𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏 first born",
+  "name": "UNRULY-MD",
+  "description": "CODESINS THEE LEGEND",
   "keywords": [
     "bot",
     "whatsapp",
@@ -14,13 +14,13 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/kimsirm/CROWN-MD#readme",
-  "repository": "https://github.com/kimsirm/CROWN-MD.git",
-  "logo": "https://i.imgur.com/iSDfKz1.jpeg",
+  "website": "https://github.com/Sickosin/UNRULY-MD#readme",
+  "repository": "https://github.com/Sickosin/UNRULY-MD.git",
+  "logo": "https://i.imgur.com/G7Iuq1R.jpeg",
   "success_url": "/",
   "env": {
     "PREFIX": {
-      "description": "Prefix of crown MD Ex: . , / , # , & etc. Put any symbol",
+      "description": "Prefix of unruly MD Ex: . , / , # , & etc. Put any symbol",
       "required": true
 
     },
