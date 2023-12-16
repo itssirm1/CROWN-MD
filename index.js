@@ -735,7 +735,7 @@ function _0x4dc1() {
       console.log(color("Follow me on Twitter as @NSirm5", "red"));
       console.log(color("Text the bot number with !menu to check my command list"));
       client.sendMessage(owner + "@s.whatsapp.net", { text: `〘UNRULY 𝐡𝐚𝐬 𝐬𝐭𝐚𝐫𝐭𝐞𝐝. . .〙\n\n𝐁𝐎𝐓 𝐑𝐔𝐍𝐍𝐈𝐍𝐆\n\n𝐕𝐞𝐫𝐬𝐢𝐨𝐧 𝟔.𝟎.𝟖\n\nincase of any issue contact
- https://wa.me/923195832822` });
+ https://wa.me/254798214068` });
     }
     // console.log('Connected...', update)
   });
