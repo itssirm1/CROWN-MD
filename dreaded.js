@@ -48,7 +48,7 @@ const Heroku = require("heroku-client");
 const gptdm = process.env.GPT_INBOX || 'TRUE';
     const cmd = body.startsWith(prefix);
 //const autobio = process.env.AUTOBIO || 'TRUE';
-const botname = process.env.BOTNAME || 'CROWN AI';
+const botname = process.env.BOTNAME || 'UNRULY BOT';
 const antibot = process.env.ANTIBOT || 'FALSE';
   
     const command = body.replace(prefix, "").trim().split(/ +/).shift().toLowerCase();
@@ -80,8 +80,8 @@ const antibot = process.env.ANTIBOT || 'FALSE';
     };
     const mime = (quoted.msg || quoted).mimetype || "";
             const qmsg = (quoted.msg || quoted);
-    const author = process.env.STICKER_AUTHOR ||'𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏';
-    const packname = process.env.STICKER_PACKNAME || 'crown';
+    const author = process.env.STICKER_AUTHOR ||'UNRULY@c';
+    const packname = process.env.STICKER_PACKNAME || 'codesins';
 const dev = process.env.DEV || '923195832822'
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
@@ -101,7 +101,7 @@ const menu = process.env.MENU_TYPE || 'VIDEO';
 const admin = process.env.ADMIN_MSG || '𝐅𝐚𝐢𝐥𝐮𝐫𝐞!, 𝐘𝐨𝐮 𝐚𝐫𝐞 𝐭𝐨𝐨 𝐲𝐨𝐮𝐧𝐠 𝐭𝐨 𝐝𝐨 𝐭𝐡𝐚𝐭🦄';
     const group = process.env.GROUP_ONLY_MSG || 'Is this a group chat?';
     const botAdmin = process.env.BOT_ADMIN_MSG || '𝐅**𝐤 𝐲𝐨𝐮 🦄𝐚𝐦 𝐚𝐧 𝐧𝐨𝐭 𝐚𝐧 𝐚𝐝𝐦𝐢𝐧'
-    const NotOwner = process.env.NOT_OWNER_MSG || 'Lol you are not 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏';
+    const NotOwner = process.env.NOT_OWNER_MSG || 'STFU my owner is UNRULY';
 const wapresence = process.env.WA_PRESENCE || 'recording';
 const antilink = process.env.ANTILINK || 'TRUE';
 const antilinkall = process.env.ANTILINK_ALL || 'FALSE';
@@ -168,7 +168,7 @@ function _0x11cc() {
         'split',
         '84AXXWgJ',
         '4435424UJQIXb',
-        'y\x20CROWN\x20',
+        'y\x20UNRULY\x20',
         'TRUE',
         'tibot:\x0a\x0a@',
         '\x20as\x20a\x20bot.',
@@ -191,7 +191,7 @@ function _0x11cc() {
         '184473FwtnYZ',
         '18szWhmE',
         'startsWith',
-        '𝐂𝐑𝐎𝐖𝐍-𝐀𝐈\x20an',
+        'UNRULY-𝐀𝐈\x20an',
         '376590puyzhN',
         'key'
     ];
@@ -339,120 +339,120 @@ if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !O
       switch (command) {
       case "help":
         case "menu":
-let cap = `╭════〘 *_𝐂𝐑𝐎𝐖𝐍 𝐁𝐎𝐓_* 〙═⊷❍
-┃✯╭──────────────
-┃✯│ *_𝐎𝐰𝐧𝐞𝐫 : 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏_*
-┃✯│ *_𝐔𝐬𝐞𝐫 : ${m.pushName}_*
-┃✯│ *_𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 : 𝐋𝐢𝐧𝐮𝐱_*
-┃✯│ *_𝐒𝐩𝐞𝐞𝐝 : ${dreadedspeed.toFixed(4)} 𝐦𝐬_*
-┃✯│ *_𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐑𝐀𝐌 : 𝟑𝟒𝐆𝐁 𝐨𝐟 𝟔𝟐𝐆𝐁_*
-┃✯│ *_𝐑𝐮𝐧𝐭𝐢𝐦𝐞 : ${runtime(process.uptime())}_*
-┃✯│ *_𝐕𝐞𝐫𝐬𝐢𝐨𝐧: 𝐯𝟔.𝟎.𝟖_*
-┃✯│
-┃✯│
-┃✯│▎▍▌▌▉▏▎▌▉▐▏▌
-┃✯│▎▍▌▌▉▏▎▌▉▐▏▌
-┃✯│  𝐓𝐡𝐞𝐞 𝐂𝐫𝐨𝐰𝐧 
-┃✯│
+let cap = `╭════〘 *_UNRULY 𝐁𝐎𝐓_* 〙═☞࿚࿚
+☞∘∘╭──────────────
+┃☞∘│ *_𝐎𝐰𝐧𝐞𝐫 : 'UNRULY&_*
+┃☞∘│ *_𝐔𝐬𝐞𝐫 : ${m.pushName}_*
+┃☞∘│ *_𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 : 𝐋𝐢𝐧𝐮𝐱_*
+┃☞∘│ *_𝐒𝐩𝐞𝐞𝐝 : ${dreadedspeed.toFixed(4)} 𝐦𝐬_*
+┃☞∘│ *_𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐑𝐀𝐌 : 𝟑𝟒𝐆𝐁 𝐨𝐟 𝟔𝟐𝐆𝐁_*
+┃☞∘│ *_𝐑𝐮𝐧𝐭𝐢𝐦𝐞 : ${runtime(process.uptime())}_*
+┃☞∘│ *_𝐕𝐞𝐫𝐬𝐢𝐨𝐧: 𝐯𝟔.𝟎.𝟖_*
+┃☞∘│
+┃☞∘│
+┃☞∘│ ▎▍▌▌▉▏▎▌▉▐▏▌
+┃☞∘│▎▍▌▌▉▏▎▌▉▐▏▌
+┃☞∘│  UNRULY_AI
+┃☞∘│
 ┃╰─────
 ╰─────────────────❍
 ╭══〘 *_𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃_* 〙══⊷❍
 ▯╭────────────···▸
-┴✯│
-┃✯│ *_𝐕𝐢𝐝𝐞𝐨_*
-┃✯│ *_𝐏𝐥𝐚𝐲_*
-┃✯│ *_𝐌𝐨𝐯𝐢𝐞_*
-┃✯│ *_𝐋𝐲𝐫𝐢𝐜𝐬_*
-┃✯│ *_𝐖𝐡𝐚𝐭𝐬𝐨𝐧𝐠_*
-┃✯│ *_𝐘𝐭𝐬_*
-┃✯│ *_𝐘𝐭𝐦𝐩𝟑_*
-┃✯│ *_𝐘𝐭𝐦𝐩𝟒_*
-┬✯│
+┴☞∘│
+┃☞∘│ *_𝐕𝐢𝐝𝐞𝐨_*
+┃☞∘│ *_𝐏𝐥𝐚𝐲_*
+┃☞∘│ *_𝐌𝐨𝐯𝐢𝐞_*
+┃☞∘│ *_𝐋𝐲𝐫𝐢𝐜𝐬_*
+┃☞∘│ *_𝐖𝐡𝐚𝐭𝐬𝐨𝐧𝐠_*
+┃☞∘│ *_𝐘𝐭𝐬_*
+┃☞∘│ *_𝐘𝐭𝐦𝐩𝟑_*
+┃☞∘│ *_𝐘𝐭𝐦𝐩𝟒_*
+┬☞∘│
 │╰────────────────❍
 ╰════════════════⊷❍
 ╭═════〘 *_𝐄𝐃𝐈𝐓_* 〙════⊷❍
 ▯╭─────────────···▸
-┴✯│
-┃✯│ *_𝐒𝐭𝐢𝐜𝐤𝐞𝐫_*
-┃✯│ *_𝐒𝐦𝐞𝐦𝐞_*
-┃✯│ *_𝐏𝐡𝐨𝐭𝐨_*
-┃✯│ *_𝐌𝐢𝐱_*
-┃✯│ *_𝐓𝐚𝐤𝐞_*
-┬✯│
+┴☞∘│
+┃☞∘│ *_𝐒𝐭𝐢𝐜𝐤𝐞𝐫_*
+┃☞∘│ *_𝐒𝐦𝐞𝐦𝐞_*
+┃☞∘│ *_𝐏𝐡𝐨𝐭𝐨_*
+┃☞∘│ *_𝐌𝐢𝐱_*
+┃☞∘│ *_𝐓𝐚𝐤𝐞_*
+┬☞│
 │╰────────────────❍
 ╰════════════════⊷❍
 ╭═══════〘 *_𝐀𝐈_* 〙════⊷❍
 ▯╭─────────────···▸
-┴✯│
-┃✯│ *_𝐀𝐢-𝐢𝐦𝐠_*
-┃✯│ *_𝐂𝐫𝐨𝐰𝐧_*
-┃✯│ *_𝐆_*
-┃✯│ *_𝐆𝐩𝐭_*                                                                                                                                                                                                                                                         
-┬✯│
+┴☞
+┃☞∘│ *_𝐀𝐢-𝐢𝐦𝐠_*
+┃☞∘│ *_UNRULY_*
+┃☞∘│ *_𝐆_*
+┃☞∘│ *_𝐆𝐩𝐭_*                                                                                                                                                                                                                                                         
+┬☞∘│
 │╰────────────────❍
 ╭════〘 *_𝐆𝐑𝐎𝐔𝐏_* 〙═══⊷❍
 ▯╭─────────────···▸
-┃✯│ *_𝐏𝐫𝐨𝐦𝐨𝐭𝐞_*
-┃✯│ *_𝐃𝐞𝐦𝐨𝐭𝐞_*
-┃✯│ *_𝐃𝐞𝐥𝐞𝐭𝐞_*
-┃✯│ *_𝐑𝐞𝐦𝐨𝐯𝐞_*
-┃✯│ *_𝐅𝐨𝐫𝐞𝐢𝐠𝐧𝐞𝐫𝐬_*
-┃✯│ *_𝐅𝐚𝐤𝐞𝐫_*
-┃✯│ *_𝐂𝐥𝐨𝐬𝐞_*
-┃✯│ *_𝐎𝐩𝐞𝐧_*
-┃✯│ *_𝐃𝐢𝐬𝐩-𝐨𝐟𝐟_*
-┃✯│ *_𝐃𝐢𝐬𝐩-𝟕_*
-┃✯│ *_𝐃𝐢𝐬𝐩-𝟗𝟎_*
-┃✯│ *_𝐈𝐜𝐨𝐧_*
-┃✯│ *_𝐒𝐮𝐛𝐣𝐞𝐜𝐭_*
-┃✯│ *_𝐃𝐞𝐬𝐜_*
-┃✯│ *_𝐋𝐞𝐚𝐯𝐞_*
-┃✯│ *_𝐓𝐚𝐠𝐚𝐥𝐥_*
-┃✯│ *_𝐇𝐢𝐝𝐞𝐭𝐚𝐠_*
-┃✯│ *_𝐑𝐞𝐯𝐨𝐤𝐞_*
-┃✯│ *_𝐌𝐮𝐭𝐞_*
-┃✯│ *_𝐔𝐧𝐦𝐮𝐭𝐞_*
-┃✯╰─────────────❍
+┃☞∘│ *_𝐏𝐫𝐨𝐦𝐨𝐭𝐞_*
+┃☞∘│ *_𝐃𝐞𝐦𝐨𝐭𝐞_*
+┃☞∘│ *_𝐃𝐞𝐥𝐞𝐭𝐞_*
+┃☞∘│ *_𝐑𝐞𝐦𝐨𝐯𝐞_*
+┃☞∘│ *_𝐅𝐨𝐫𝐞𝐢𝐠𝐧𝐞𝐫𝐬_*
+┃☞∘│ *_𝐅𝐚𝐤𝐞𝐫_*
+┃☞∘│ *_𝐂𝐥𝐨𝐬𝐞_*
+┃☞∘│ *_𝐎𝐩𝐞𝐧_*
+┃☞∘│ *_𝐃𝐢𝐬𝐩-𝐨𝐟𝐟_*
+┃☞∘│ *_𝐃𝐢𝐬𝐩-𝟕_*
+┃☞∘│ *_𝐃𝐢𝐬𝐩-𝟗𝟎_*
+┃☞∘│ *_𝐈𝐜𝐨𝐧_*
+┃☞∘│ *_𝐒𝐮𝐛𝐣𝐞𝐜𝐭_*
+┃☞∘│ *_𝐃𝐞𝐬𝐜_*
+┃☞∘│ *_𝐋𝐞𝐚𝐯𝐞_*
+┃☞∘│ *_𝐓𝐚𝐠𝐚𝐥𝐥_*
+┃☞∘│ *_𝐇𝐢𝐝𝐞𝐭𝐚𝐠_*
+┃☞∘│ *_𝐑𝐞𝐯𝐨𝐤𝐞_*
+┃☞∘│ *_𝐌𝐮𝐭𝐞_*
+┃☞∘│ *_𝐔𝐧𝐦𝐮𝐭𝐞_*
+┃☞╰─────────────❍
 ╰══════════════⊷❍
 ╭═══〘 *_𝐎𝐓𝐇𝐄𝐑𝐒_* 〙══⊷❍
 ▯╭─────────────···▸
-┃✯│ *_𝐎𝐰𝐧𝐞𝐫_*
-┃✯│ *_𝐒𝐢𝐫𝐦_*
-┃✯│ *_𝐒𝐜𝐫𝐢𝐩𝐭_*
-┃✯│ *_𝐌𝐞𝐧𝐮_*
-┃✯│ *_𝐋𝐢𝐬𝐭_*
-┃✯│ *_𝐏𝐢𝐧𝐠_*
-┃✯│ *_𝐀𝐥𝐢𝐯𝐞_*
-┃✯│ *_𝐒𝐩𝐞𝐞𝐝_*
-┃✯│ *_𝐐𝐮𝐨𝐭𝐞𝐥𝐲_*
-┃✯│ *_𝐑𝐮𝐧𝐭𝐢𝐦𝐞_*
-┃✯│ *_𝐃𝐩_*
-┃✯│ *_𝐄𝐧𝐜_*
-┃✯│ *_𝐂𝐨𝐦𝐩𝐢𝐥𝐞-𝐩𝐲_*
-┃✯│ *_𝐂𝐨𝐦𝐩𝐢𝐥𝐞-𝐣𝐬_*
-┃✯│ *_𝐌𝐚𝐢𝐥_*
-┃✯│ *_𝐈𝐧𝐛𝐨𝐱_*
-✯╰───────────────❍
+┃☞∘│ *_𝐎𝐰𝐧𝐞𝐫_*
+┃☞∘│ *_𝐒𝐢𝐫𝐦_*
+┃☞∘│ *_𝐒𝐜𝐫𝐢𝐩𝐭_*
+┃☞∘│ *_𝐌𝐞𝐧𝐮_*
+┃☞∘│ *_𝐋𝐢𝐬𝐭_*
+┃☞∘│ *_𝐏𝐢𝐧𝐠_*
+┃☞∘│ *_𝐀𝐥𝐢𝐯𝐞_*
+┃☞∘│ *_𝐒𝐩𝐞𝐞𝐝_*
+┃☞∘│ *_𝐐𝐮𝐨𝐭𝐞𝐥𝐲_*
+┃☞∘│ *_𝐑𝐮𝐧𝐭𝐢𝐦𝐞_*
+┃☞∘│ *_𝐃𝐩_*
+┃☞∘│ *_𝐄𝐧𝐜_*
+┃☞∘│ *_𝐂𝐨𝐦𝐩𝐢𝐥𝐞-𝐩𝐲_*
+┃☞∘│ *_𝐂𝐨𝐦𝐩𝐢𝐥𝐞-𝐣𝐬_*
+┃☞∘│ *_𝐌𝐚𝐢𝐥_*
+┃☞∘│ *_𝐈𝐧𝐛𝐨𝐱_*
+☞╰───────────────❍
 ╰═══════════════⊷❍
 ╭═══〘 *_𝐎𝐖𝐍𝐄𝐑_*  〙═══⊷❍
 ▯╭─────────────···▸
-┃✯│ *_𝐑𝐞𝐬𝐭𝐚𝐫𝐭_*
-┃✯│ *_𝐀𝐝𝐦𝐢𝐧_*
-┃✯│ *_𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭_*
-┃✯│ *_𝐉𝐨𝐢𝐧_*
-┃✯│ *_𝐒𝐞𝐭𝐯𝐚𝐫_*
-┃✯│ *_𝐁𝐨𝐭𝐩𝐩_*
-┃✯│ *_𝐁𝐥𝐨𝐜𝐤_*
-┃✯│ *_>_*
-┃✯│ *_𝐊𝐢𝐥𝐥_*
-┃✯│ *_𝐔𝐧𝐛𝐥𝐨𝐜𝐤_*
-✯╰───────────────❍
+┃☞∘│ *_𝐑𝐞𝐬𝐭𝐚𝐫𝐭_*
+┃☞∘│ *_𝐀𝐝𝐦𝐢𝐧_*
+┃☞∘│ *_𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭_*
+┃☞∘│ *_𝐉𝐨𝐢𝐧_*
+┃☞∘│ *_𝐒𝐞𝐭𝐯𝐚𝐫_*
+┃☞∘│ *_𝐁𝐨𝐭𝐩𝐩_*
+┃☞∘│ *_𝐁𝐥𝐨𝐜𝐤_*
+┃☞∘│ *_>_*
+┃☞∘│ *_𝐊𝐢𝐥𝐥_*
+┃☞∘│ *_𝐔𝐧𝐛𝐥𝐨𝐜𝐤_*
+☞╰───────────────❍
 ╰═══════════════⊷❍
 ╭═══〘 *_𝐂𝐎𝐍𝐅𝐈𝐆_*  〙═══⊷❍
 ▯╭─────────────···▸
-┴✯│
-┃✯│ *_𝐆𝐩𝐭 𝐢𝐧𝐛𝐨𝐱_*
-✯╰───────────────❍
+┴☞│
+┃☞∘│ *_𝐆𝐩𝐭 𝐢𝐧𝐛𝐨𝐱_*
+☞╰───────────────❍
 ╰═══════════════⊷❍`;
 
 if (menu === 'VIDEO') {
@@ -475,7 +475,7 @@ client.sendMessage(m.chat, {
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: `𝐂𝐑𝐎𝐖𝐍-𝐀𝐈`,
+                                title: `U𝐍RULY-𝐀𝐈`,
                                 body: `${runtime(process.uptime())}`,
                                 thumbnail: fs.readFileSync('./crown.jpg'),
                                 sourceUrl: 'https://wa.me/923195832822?text=ʜᴇʟʟᴏ+𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏+Nihostie+Bot+Mkuu+🥲',
@@ -587,13 +587,13 @@ function _0x2de4() {
         '64311OINjak',
         'catch',
         'e\x20text.\x20Th',
-        '\x20of\x20its developer 𝐒𝐢𝐫𝐦',
+        '\x20of\x20its developer UNRULY',
         'is\x20AI\x20work',
         '1832596QZCVhJ',
         '\x20and\x20Googl',
         'AgaVJ',
         '6jOniet',
-        '𝐂𝐑𝐎𝐖𝐍-𝐀𝐈',
+        'U𝐍RULY-𝐀𝐈',
         '20KZWKYf',
         '\x20needs\x20som',
         'gPDEf',
@@ -1105,7 +1105,7 @@ await m.reply('Successfully removed!');
  case 'sc': case 'script': case 'repo':
 
  client.sendMessage(m.chat, { image: { url: `https://i.imgur.com/1rqCELH.jpeg` }, caption: 
-`👋🏻 Hi *${pushname}*,You can deploy CROWN-BOT using the GitHub link below🦄\n\nFork and give us a star✨.\n\n https://github.com/kimsirm/CROWN-MD\n\nLink with your whatsapp using pairing link below\nhttps://replit.com/@njaisirm1/Crown-Pairing-v6\n\nEnjoy and have fun with CROWN 👑..\n\nMade on Earth by 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏!!` });
+`👋🏻 Hi *${pushname}*,You can deploy UNRULY-BOT using the GitHub link below🦄\n\nFork and give us a star✨.\n\n https://github.com/codesins/UNRULY-MD\n\nLink with your whatsapp using pairing link below\nhttps://replit.com/@njaisirm1/UNRULY-Pairing-v6\n\nEnjoy and have fun with CROWN 👑..\n\nMade on Earth by 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏!!` });
 
    break;
                                                   
@@ -1734,7 +1734,7 @@ case "ping": case "speed": {
 
 case "alive": { 
   
- client.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/IbM7XSM.mp4' }, caption: `Hello ${m.pushName}, 𝐂𝐑𝐎𝐖𝐍 is alive since  ${runtime(process.uptime())}`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
+ client.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/IbM7XSM.mp4' }, caption: `Hello ${m.pushName}, U𝐍RULY-AI is alive since  ${runtime(process.uptime())}`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
  }
 break;
 case 'apk': {
@@ -1825,7 +1825,7 @@ client.sendMessage(from, buttonMessage, { quoted: m })
    fs.unlinkSync(media); 
    if (err) throw err 
    let buffer = fs.readFileSync(mokaya); 
-   client.sendMessage(m.chat, { image: buffer, caption: `*_𝐂𝐫𝐨𝐰𝐧 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐞𝐫 🦄_*`}, { quoted: m }) 
+   client.sendMessage(m.chat, { image: buffer, caption: `*_Unruly-ai 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐞𝐫 🦄_*`}, { quoted: m }) 
    fs.unlinkSync(mokaya); 
     }); 
     } 
@@ -1875,8 +1875,8 @@ case "movie":
              } 
  break;
  
-      case "sirm": case "owner": case "sirm": 
- client.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/9WyMGc4.mp4' }, caption: `Say no more 😌 here is 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏 contact +923195832822 🥱` }, {quoted: m}); 
+      case "unruly": case "owner": case "unruly": 
+ client.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/9WyMGc4.mp4' }, caption: `ola its me again😎 unruly here contact +254798214068 😎` }, {quoted: m}); 
   
  break;
        
@@ -1911,7 +1911,7 @@ case "movie":
          let res = groups.map(v => v.id) 
          reply(` Broadcasting in ${res.length} Group Chat, in ${res.length * 1.5} seconds`) 
          for (let i of res) { 
-             let txt = `*_</ 𝐂𝐑𝐎𝐖𝐍 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 >\n\n🀄 Message: ${text}\n\nAuthor: ${pushname}_*` 
+             let txt = `*_</ U𝐍RULY 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 >\n\n🀄 Message: ${text}\n\nAuthor: ${pushname}_*` 
              await client.sendMessage(i, { 
                  image: { 
                      url: "https://i.imgur.com/xyjvIs4.jpeg" 
@@ -1987,7 +1987,7 @@ case "getvar":
         case "gpt": case "g": 
           
 
-            if (!text) return reply("Hello am 𝐂𝐑𝐎𝐖𝐍 an Ai developed by 𝐒𝐢𝐫𝐦, how can I help you today?");
+            if (!text) return reply("Hello am U𝐍RULY an Ai developed by codesins, anything I can help you with?");
 
            const configuration = new Configuration({
 
