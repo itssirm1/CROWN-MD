@@ -1,4 +1,4 @@
-
+const
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require("@whiskeysockets/baileys");
 const fs = require("fs");
 const util = require("util");
@@ -339,6 +339,7 @@ if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !O
       switch (command) {
       case "help":
         case "menu":
+
 let cap = `╭════〘 *_𝐔𝐍𝐑𝐔𝐋𝐘 𝐁𝐎𝐓_* 〙═☞࿚࿚
 ☞∘∘╭──────────────
 ┃☞∘│ *_𝐎𝐰𝐧𝐞𝐫 : 'UNRULY&_*
@@ -347,13 +348,14 @@ let cap = `╭════〘 *_𝐔𝐍𝐑𝐔𝐋𝐘 𝐁𝐎𝐓_* 〙═�
 ┃☞∘│ *_𝐒𝐩𝐞𝐞𝐝 : ${dreadedspeed.toFixed(4)} 𝐦𝐬_*
 ┃☞∘│ *_𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐑𝐀𝐌 : 𝟑𝟒𝐆𝐁 𝐨𝐟 𝟔𝟐𝐆𝐁_*
 ┃☞∘│ *_𝐑𝐮𝐧𝐭𝐢𝐦𝐞 : ${runtime(process.uptime())}_*
-┃☞∘│ *_𝐕𝐞𝐫𝐬𝐢𝐨𝐧: 𝐯𝟔.𝟎.𝟖_*
+┃☞∘│ *_𝐕𝐞𝐫𝐬𝐢𝐨𝐧: 𝐯𝟔.𝟎.𝟖_
 ┃☞∘│
 ┃☞∘│᚜᚛᚜᚛᚜᚛᚜᚛᚜᚛᚛᚜᚛᚜᚛᚜᚛᚜᚛᚜᚛᚜᚛ᚒᚖᚗ
 ┃☞∘│ ▎▍▌▌▉▏▎▌▉▐▏▌
 ┃☞∘│᚜᚜᚛᚜᚛᚜᚛᚜᚛᚜᚛᚜᚛᚜᚛᚜᚛᚜᚛᚜᚛ᚒᚒᚖᚗ
 ┃☞∘│  𝐔𝐍𝐑𝐔𝐋𝐘-𝐀𝐈
 ┃☞∘│
+===
 ┃╰─────
 ╰─────────────────❍
 ╭══〘 *_𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃_* 〙══⊷❍
@@ -1922,20 +1924,12 @@ case "movie":
          reply(`Broadcasted to ${res.length} Groups.`) 
      } 
  break;
-case "getvar": 
- if (!Owner) throw NotOwner;  
-     const heroku = new Heroku({  
-         token: herokuapi, // Replace 'heroku' with your actual Heroku token 
-     });  
-     let baseUR = "/apps/" + appname;  
-     let h9 = await heroku.get(baseUR + '/config-vars');  
-     let stoy = '*Below Are Heroku Variables For Dreaded:*\n\n';  
-     for ( vrt in h9) { // Added 'const' to declare 'vr' 
-         stoy += vrt + '=' + h9[vrt] + '\n\n'; // Fixed variable name 'str' to 'sto' 
-     }  
-     reply(stoy); 
-  
-     break; 
+ case ".":case"!":case"_":case"-":case"/":case"&":case"+":case"?":case"*": { 
+         m.reply (`Hello ${pushname}, 👋 you have used my prefix? Try typing a command after the prefix like *_help_*`); 
+ }
+ break;
+      
+          
  case "setvar": 
  if (!Owner) throw NotOwner;  
  if(!text.split('=')[1]) return reply('Incorrect Usage:\nProvide the key and value correctly\nExample: setvar AUTOVIEW_STATUS=TRUE')  
