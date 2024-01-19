@@ -80,5 +80,5 @@ Modifying the bot structure is at your own risk. We won't offer technical suppor
 
 [MIT License](https://https://github.com/kimsirm/CROWN-MD/blob/main/LICENSE)
 
-Copyright (c) 2023 CROWN-MD
+Copyright (c) 2023 CROWN-bn
 
